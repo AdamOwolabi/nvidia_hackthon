@@ -105,7 +105,7 @@ function App() {
         if (match && match[1]) art = match[1].trim();
       }
 
-      setAsciiArt(art);
+      setAsciiArt(art); 
 
       setStage('guessing');
       const startTime = Date.now();
